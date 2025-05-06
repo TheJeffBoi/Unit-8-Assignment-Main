@@ -336,6 +336,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_51
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -349,6 +354,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -403,6 +413,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -461,6 +476,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -515,6 +535,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -583,6 +608,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_69
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -707,6 +737,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_65
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -787,6 +822,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -842,6 +882,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_28
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -855,6 +900,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -909,6 +959,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1033,6 +1088,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1087,6 +1147,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1537,6 +1602,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1591,6 +1661,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1871,6 +1946,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_48
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2049,6 +2129,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_28
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2116,6 +2201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2191,6 +2281,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_59
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2236,6 +2331,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2291,6 +2391,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_04
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2316,6 +2421,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2371,6 +2481,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_44
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2390,6 +2505,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2444,6 +2564,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2713,6 +2838,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2767,6 +2897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_41
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2898,6 +3033,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_54
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2909,27 +3049,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1187647218}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 44.800003
+      value: 6.3999977
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6000001
+      value: -0.60000014
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.6999972
+      value: 12.600001
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000104308114
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -2939,7 +3079,7 @@ PrefabInstance:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -3112,6 +3252,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3166,6 +3311,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3531,6 +3681,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_34
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3544,6 +3699,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3598,6 +3758,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_52
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3726,6 +3891,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3780,6 +3950,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3849,6 +4024,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_11
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3862,6 +4042,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3916,6 +4101,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4099,6 +4289,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_32
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4112,6 +4307,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4166,6 +4366,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_46
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4653,6 +4858,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4707,6 +4917,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4776,6 +4991,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_68
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4795,6 +5015,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4850,6 +5075,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_54
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4863,6 +5093,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4917,6 +5152,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4985,6 +5225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5088,6 +5333,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5544,6 +5794,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5599,6 +5854,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_43
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5643,6 +5903,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5697,6 +5962,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5766,6 +6036,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_31
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5779,6 +6054,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5833,6 +6113,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5902,6 +6187,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_52
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5913,27 +6203,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1187647218}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.8
+      value: 40.4
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6000001
+      value: -0.60000014
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.7000043
+      value: 12.600001
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000104308114
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -5943,7 +6233,7 @@ PrefabInstance:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -6464,6 +6754,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_30
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6538,6 +6833,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_67
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6589,6 +6889,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6644,6 +6949,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_02
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6657,6 +6967,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6711,6 +7026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7124,6 +7444,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_55
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7137,6 +7462,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7191,6 +7521,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_31
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7407,6 +7742,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7743,6 +8083,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_37
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7855,6 +8200,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_44
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7874,6 +8224,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7928,6 +8283,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_42
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8061,6 +8421,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_39
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8074,6 +8439,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8129,6 +8499,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_55
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8142,6 +8517,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8196,6 +8576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8326,6 +8711,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8380,6 +8770,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8449,6 +8844,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_53
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8516,6 +8916,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_33
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8748,6 +9153,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8802,6 +9212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_39
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8876,6 +9291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9004,6 +9424,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9058,6 +9483,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9133,6 +9563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_38
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9190,6 +9625,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9245,6 +9685,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_1
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9258,6 +9703,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9312,6 +9762,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9673,6 +10128,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_58
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9800,6 +10260,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9854,6 +10319,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10047,6 +10517,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10101,6 +10576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_32
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10188,6 +10668,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_13
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10207,6 +10692,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10261,6 +10751,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10363,6 +10858,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_57
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10376,6 +10876,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10430,6 +10935,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10615,6 +11125,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_70
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10628,6 +11143,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10682,6 +11202,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_57
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10750,6 +11275,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10911,6 +11441,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10966,6 +11501,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_21
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10977,27 +11517,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1187647218}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 61.800003
+      value: -10.600002
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6000001
+      value: -0.60000014
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.6999936
+      value: 12.600001
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000104308114
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -11007,7 +11547,7 @@ PrefabInstance:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -11200,6 +11740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1187647218}
+  - component: {fileID: 1187647219}
   m_Layer: 0
   m_Name: Objects
   m_TagString: Untagged
@@ -11220,12 +11761,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 590977703}
-  - {fileID: 1596324497}
-  - {fileID: 1300667267}
-  - {fileID: 1475227284}
-  - {fileID: 251548618}
-  - {fileID: 1178243436}
   - {fileID: 731058626}
   - {fileID: 1407143952}
   - {fileID: 1743058202}
@@ -11356,6 +11891,28 @@ Transform:
   - {fileID: 335115326}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1187647219
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187647217}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b38ea037427b57844b630400a6a5ee1d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1192784545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11418,6 +11975,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_26
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11746,6 +12308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_8
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11759,6 +12326,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11814,6 +12386,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_50
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11827,6 +12404,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11881,6 +12463,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11961,6 +12548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12246,6 +12838,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_29
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12265,6 +12862,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12319,6 +12921,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12388,6 +12995,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_40
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12455,6 +13067,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_56
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12524,6 +13141,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_14
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12535,27 +13157,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1187647218}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 78.8
+      value: -27.600002
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6000001
+      value: -0.60000014
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.69999
+      value: 12.600001
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000104308114
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -12565,7 +13187,7 @@ PrefabInstance:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -12641,6 +13263,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12695,6 +13322,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12764,6 +13396,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_21
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12831,6 +13468,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13032,6 +13674,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_12
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13132,6 +13779,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_63
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13205,6 +13857,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13423,6 +14080,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_50
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13479,6 +14141,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13533,6 +14200,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13601,6 +14273,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13696,6 +14373,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13751,6 +14433,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_17
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13764,6 +14451,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13818,6 +14510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13942,6 +14639,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13997,6 +14699,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_06
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14014,27 +14721,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1187647218}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.800001
+      value: 23.4
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6000001
+      value: -0.60000014
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.7000008
+      value: 12.600001
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000104308114
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -14044,7 +14751,7 @@ PrefabInstance:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -14174,6 +14881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14559,6 +15271,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_47
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14680,6 +15397,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14734,6 +15456,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_53
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14858,6 +15585,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14912,6 +15644,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14992,6 +15729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15222,6 +15964,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15276,6 +16023,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15427,6 +16179,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15481,6 +16238,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15634,6 +16396,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15688,6 +16455,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15762,6 +16534,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15896,27 +16673,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1187647218}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.2000003
+      value: 57.4
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6000001
+      value: -0.60000014
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.7000077
+      value: 12.600001
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000000104308114
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -15926,7 +16703,7 @@ PrefabInstance:
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2858833953217620251, guid: 21f946efe6b8e334993f54bdf6d93d7b,
         type: 3}
@@ -16069,6 +16846,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_16
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16136,6 +16918,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16337,6 +17124,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16391,6 +17183,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_47
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16818,6 +17615,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16872,6 +17674,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17007,6 +17814,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17893,6 +18705,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_35
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18030,6 +18847,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_36
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18097,6 +18919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_61
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18235,6 +19062,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_49
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18302,6 +19134,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_62
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18767,6 +19604,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18821,6 +19663,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_56
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18889,6 +19736,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_66
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18970,6 +19822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_27
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18983,6 +19840,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19037,6 +19899,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19111,6 +19978,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_Station_22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19352,6 +20224,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_45
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19481,6 +20358,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19535,6 +20417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19626,6 +20513,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19680,6 +20572,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19814,6 +20711,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19869,6 +20771,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_25
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19921,6 +20828,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19975,6 +20887,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20044,6 +20961,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Station_41
       objectReference: {fileID: 0}
+    - target: {fileID: 3263646648217277910, guid: f744f3e5349bbd0448701abffa64baa9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20089,6 +21011,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20144,6 +21071,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_8
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20188,6 +21120,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20243,6 +21180,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_Lighted_33
       objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20256,6 +21198,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20310,6 +21257,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20883,6 +21835,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1187647218}
     m_Modifications:
+    - target: {fileID: 6020535657694954747, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619776817222812585, guid: bcce8e481351d27449474de6ecadb255,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20937,6 +21894,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tunnel_Lighted_59
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994895668540004627, guid: bcce8e481351d27449474de6ecadb255,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20997,4 +21959,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 427621469}
+  - {fileID: 590977702}
+  - {fileID: 1596324496}
+  - {fileID: 1300667266}
+  - {fileID: 1475227283}
+  - {fileID: 251548617}
+  - {fileID: 1178243435}
   - {fileID: 1187647218}
