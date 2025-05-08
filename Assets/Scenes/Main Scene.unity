@@ -2363,6 +2363,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 111786843}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &112264768 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
+    type: 3}
+  m_PrefabInstance: {fileID: 619506580}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &117982584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5122395141473293512, guid: 99986ad665232b84095930fa023c3f46,
@@ -6973,6 +6979,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 112264768}
   - {fileID: 4280990433704560174}
   - {fileID: 925084195}
   - {fileID: 2013377030}
@@ -11057,7 +11064,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 396974460}
     m_Modifications:
     - target: {fileID: 2932529062523927733, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
@@ -11066,28 +11073,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.00045
+      objectReference: {fileID: 0}
+    - target: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.00043499997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0004500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: -34
+      value: -42.30565
       objectReference: {fileID: 0}
     - target: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.64
+      value: 3.0156946
       objectReference: {fileID: 0}
     - target: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.04
+      value: 23.960814
       objectReference: {fileID: 0}
     - target: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.18757756
+      value: 0.18757758
       objectReference: {fileID: 0}
     - target: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.008442183
+      value: 0.008442184
       objectReference: {fileID: 0}
     - target: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
@@ -11097,7 +11119,7 @@ PrefabInstance:
     - target: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.04522155
+      value: 0.045221552
       objectReference: {fileID: 0}
     - target: {fileID: 6608137856812455979, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
@@ -43904,6 +43926,7 @@ GameObject:
   - component: {fileID: 4885012701742938676}
   - component: {fileID: 67679051988752028}
   - component: {fileID: 725162316448262311}
+  - component: {fileID: 5779828168429807851}
   - component: {fileID: 5779828168429807850}
   m_Layer: 0
   m_Name: Player
@@ -50273,6 +50296,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5779828168429807851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2990533516770929876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5dbd069a3c1fb428e747add0f7ecad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalAmmoText: {fileID: 15600861968223798}
 --- !u!1 &5821028389992677743
 GameObject:
   m_ObjectHideFlags: 0
@@ -55491,4 +55527,3 @@ SceneRoots:
   - {fileID: 393212452}
   - {fileID: 770940330}
   - {fileID: 1733476817}
-  - {fileID: 619506580}

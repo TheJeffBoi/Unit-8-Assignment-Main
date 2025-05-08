@@ -5,6 +5,8 @@ using UnityEngine.WSA;
 
 public class AmmoCollectScript : MonoBehaviour
 {
+    PlayerGun playerGunScript;
+
     public TextMeshProUGUI totalAmmoText;
     public Animator openBox;
 
@@ -15,6 +17,7 @@ public class AmmoCollectScript : MonoBehaviour
     void Start()
     {
         openBox = GetComponent<Animator>();
+        playerGunScript = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerGun>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -22,12 +25,8 @@ public class AmmoCollectScript : MonoBehaviour
         if (other.gameObject.tag == "Player" && activated == false)
         {
             openBox.SetBool("Open", true);
-            randAmmo = Random.Range(2, 8);
-            Debug.Log("You got" + randAmmo);
-            totalAmmo += randAmmo;
-            Debug.Log(totalAmmo);
-            totalAmmoText.text = totalAmmo.ToString();
             activated = true;
+            playerGunScript.UpdateAmmoCount();
         }
     }
 }
