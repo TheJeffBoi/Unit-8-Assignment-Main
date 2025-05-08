@@ -6,12 +6,20 @@ using System.Collections;
 
 public class LoadLevel : MonoBehaviour
 {
+    PlayerGun playerGunScript;
+
+    public Animator transition;
     public GameObject trigger;
     public TextMeshProUGUI objectiveText;
     public TextMeshProUGUI objectiveTextBackground;
+
     public float transitionTime;
     public float transitionDelay;
-    public Animator transition;
+
+    void Start()
+    {
+        playerGunScript = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerGun>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -36,6 +44,7 @@ public class LoadLevel : MonoBehaviour
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene("Game");
+        playerGunScript.UpdateAmmoCount();
 
     }
 }

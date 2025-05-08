@@ -26,7 +26,7 @@ public class AmmoCollectScript : MonoBehaviour
         {
             openBox.SetBool("Open", true);
             activated = true;
-            playerGunScript.UpdateAmmoCount();
+            playerGunScript.AddAmmo();
         }
     }
 }
