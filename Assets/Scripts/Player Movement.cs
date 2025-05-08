@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     //Bools
     public bool pickUpPressed;
     bool sprint = false;
+    bool mouseLocked;
 
     //Floats
     public float speed;
@@ -58,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Walk();
         Look();
+        CursorLock();
         UpdateFov();
     }
 
@@ -107,6 +109,25 @@ public class PlayerMovement : MonoBehaviour
             targetFov = 60;
 
             sprint = false;
+        }
+    }
+
+    void CursorLock()
+    {
+        if(Input.GetKeyDown(KeyCode.Mouse1) == true)
+        {
+            if(mouseLocked == false)
+            {
+                mouseLocked = true;
+                Cursor.visible = false;
+                //Cursor.lockState = CursorLockMode.Locked;
+            }
+            else if(mouseLocked == true)
+            {
+                mouseLocked = false;
+                Cursor.visible = true;
+                //Cursor.lockState = CursorLockMode.None;
+            }
         }
     }
 
