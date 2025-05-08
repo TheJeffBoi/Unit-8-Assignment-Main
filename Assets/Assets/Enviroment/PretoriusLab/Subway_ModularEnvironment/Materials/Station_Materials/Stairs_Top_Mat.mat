@@ -64,6 +64,7 @@ Material:
     - _GlossMapScale: 0.6
     - _Smoothness: 0.5
     - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
