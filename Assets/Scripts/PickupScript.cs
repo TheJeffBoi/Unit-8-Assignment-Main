@@ -6,6 +6,7 @@ public class PickupScript : MonoBehaviour
 
     GameObject player;
     public TMP_Text promptText;
+    public GameObject pistolSymbol;
 
     bool playerInArea = false;
 
@@ -57,6 +58,7 @@ public class PickupScript : MonoBehaviour
             {
                 Destroy(gameObject);
                 promptText.text = "";
+                pistolSymbol.SetActive(true);
                 player.GetComponent<PlayerMovement>().pickUpPressed = false;
             }
         }
