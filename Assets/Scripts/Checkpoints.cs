@@ -23,9 +23,9 @@ public class Checkpoints : MonoBehaviour
     {
         yield return new WaitForSeconds(transitionDelay);
 
-        transition.SetTrigger("Start");
+        transition.SetTrigger("Fade In");
         yield return new WaitForSeconds(transitionTime);
-        //player.transform.position = new Vector3(17.5f, 1, 12.1f);
+        player.transform.position = new Vector3(-17.5f, 1, 12.1f);
 
     }
 

@@ -20640,8 +20640,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e9e25d790f9ef343ae91410d2ebdec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  transition: {fileID: 0}
+  player: {fileID: 427621462}
+  transition: {fileID: 2019085177}
   transitionTime: 2
   transitionDelay: 0.4
 --- !u!65 &1509933222
