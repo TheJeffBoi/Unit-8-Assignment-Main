@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering.Universal;
 
@@ -7,6 +8,12 @@ public class PlayerMovement : MonoBehaviour
 {
 
     PlayerControls controls;
+
+    PlayerGun playerGunScript;
+
+    public GameObject pistolSymbol;
+    public TextMeshProUGUI currentAmmoText;
+    public TextMeshProUGUI totalAmmoText;
 
     public Camera mainCamera;
     public Rigidbody rb;
@@ -50,6 +57,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
 
+        playerGunScript = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerGun>();
+
         //Setting Variables
         targetFov = 60f;
         currentFov = targetFov;
@@ -61,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
         Look();
         CursorLock();
         UpdateFov();
+        Reload();
     }
 
     void OnEnable()
@@ -143,6 +153,17 @@ public class PlayerMovement : MonoBehaviour
         // Update The Camera's FOV
         Camera.main.fieldOfView = currentFov;
 
+    }
+
+    void Reload()
+    {
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            if (pistolSymbol.activeSelf == true)
+            {
+                playerGunScript.Reload();
+            }
+        }
     }
 
 }

@@ -6054,6 +6054,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c86e680dc8b044242abdeee544a71faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pistolSymbol: {fileID: 76483189}
+  currentAmmoText: {fileID: 698612185}
+  totalAmmoText: {fileID: 1555317386}
   mainCamera: {fileID: 1558369148}
   rb: {fileID: 427621465}
   pickUpPressed: 0
@@ -6194,6 +6197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalAmmoText: {fileID: 1555317386}
+  currentAmmoText: {fileID: 0}
 --- !u!1 &432801648
 GameObject:
   m_ObjectHideFlags: 0
