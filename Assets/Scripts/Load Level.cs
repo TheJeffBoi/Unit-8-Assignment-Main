@@ -31,33 +31,20 @@ public class LoadLevel : MonoBehaviour
             objectiveTextBackground.fontStyle ^= FontStyles.Strikethrough;
             objectiveTextBackground.color = Color.white;
 
-            LoadGame();
+            StartCoroutine(sceneChange());
 
             //trigger.SetActive(false);
         }
     }
 
-    void LoadGame()
+    IEnumerator sceneChange()
     {
-        StartCoroutine(Checkpoint(0.4f));
-        transition.SetBool("Fade In", true);
+        yield return new WaitForSeconds(transitionDelay);
 
-        StartCoroutine(Checkpoint(1.25f));
-        transition.SetBool("Fade In", false);
-
-        transition.SetBool("Fade Out", true);
-
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene("Game");
-
-        StartCoroutine(Checkpoint(1));
-        transition.SetBool("Fade Out", false);
-
         playerGunScript.UpdateAmmoCount();
-    }
 
-    IEnumerator Checkpoint(float delayTime)
-    {
-        print("Delay");
-        yield return new WaitForSeconds(delayTime);
     }
 }
