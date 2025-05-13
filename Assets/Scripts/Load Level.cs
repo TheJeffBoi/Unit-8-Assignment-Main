@@ -37,14 +37,26 @@ public class LoadLevel : MonoBehaviour
         }
     }
 
-    IEnumerator sceneChange()
+    void CheckpointOne()
     {
-        yield return new WaitForSeconds(transitionDelay);
+        StartCoroutine(Checkpoint(0.4f));
+        transition.SetBool("Fade In", true);
 
-        transition.SetTrigger("Start");
-        yield return new WaitForSeconds(transitionTime);
+        StartCoroutine(Checkpoint(1.25f));
+        transition.SetBool("Fade In", false);
+
+        transition.SetBool("Fade Out", true);
+
         SceneManager.LoadScene("Game");
-        playerGunScript.UpdateAmmoCount();
 
+        StartCoroutine(Checkpoint(1));
+        transition.SetBool("Fade Out", false);
+
+        playerGunScript.UpdateAmmoCount();
+    }
+
+    IEnumerator Checkpoint(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
     }
 }
