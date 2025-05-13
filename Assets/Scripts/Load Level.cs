@@ -31,13 +31,13 @@ public class LoadLevel : MonoBehaviour
             objectiveTextBackground.fontStyle ^= FontStyles.Strikethrough;
             objectiveTextBackground.color = Color.white;
 
-            StartCoroutine(sceneChange());
+            LoadGame();
 
             //trigger.SetActive(false);
         }
     }
 
-    void CheckpointOne()
+    void LoadGame()
     {
         StartCoroutine(Checkpoint(0.4f));
         transition.SetBool("Fade In", true);
@@ -57,6 +57,7 @@ public class LoadLevel : MonoBehaviour
 
     IEnumerator Checkpoint(float delayTime)
     {
+        print("Delay");
         yield return new WaitForSeconds(delayTime);
     }
 }

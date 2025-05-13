@@ -90,13 +90,13 @@ public class PlayerMovement : MonoBehaviour
     {
         yRotation += -rotate.y;
 
-        if (yRotation < minLook)
+        if (yRotation < -10)
         {
-            yRotation = minLook;
+            yRotation = -10;
         }
-        if (yRotation > maxLook)
+        if (yRotation > 8)
         {
-            yRotation = maxLook;
+            yRotation = 8;
         }
 
         xRotation += rotate.x;
