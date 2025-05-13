@@ -11,6 +11,7 @@ public class AmmoCollectScript : MonoBehaviour
     public TextMeshProUGUI totalAmmoText;
     public TextMeshProUGUI actionText;
     public Animator openBox;
+    public Animator actionTextFade;
 
     int totalAmmo = 0;
     int addedAmmo;
@@ -38,9 +39,18 @@ public class AmmoCollectScript : MonoBehaviour
         openBox.SetBool("Open", true);
         playerGunScript.AddAmmo();
 
+        actionTextFade.SetBool("Fade In", true);
+
         addedAmmo = playerGunScript.randAmmo;
         actionText.text = "+ " + addedAmmo + " Ammo!";
 
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
+
+        actionTextFade.SetBool("Fade In", false);
+        actionTextFade.SetBool("Fade Out", true);
+
+        yield return new WaitForSeconds(1);
+
+        actionTextFade.SetBool("Fade Out", false);
     }
 }

@@ -16228,9 +16228,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1925730115910110570, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
+      propertyPath: actionText
+      value: 
+      objectReference: {fileID: 1012479678}
+    - target: {fileID: 1925730115910110570, guid: 6622cfc0f64f50d498b077c53acdd458,
+        type: 3}
       propertyPath: totalAmmoText
       value: 
       objectReference: {fileID: 15600861968223798}
+    - target: {fileID: 1925730115910110570, guid: 6622cfc0f64f50d498b077c53acdd458,
+        type: 3}
+      propertyPath: actionTextFade
+      value: 
+      objectReference: {fileID: 1012479680}
     - target: {fileID: 2932529062523927733, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
       propertyPath: m_Name
@@ -17488,6 +17498,8 @@ GameObject:
   - component: {fileID: 1012479677}
   - component: {fileID: 1012479679}
   - component: {fileID: 1012479678}
+  - component: {fileID: 1012479681}
+  - component: {fileID: 1012479680}
   m_Layer: 0
   m_Name: Action Text
   m_TagString: Untagged
@@ -17534,7 +17546,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Test
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e307f2afbf2fdb40b72eb1b602d7c00, type: 2}
   m_sharedMaterial: {fileID: -1025869434273881205, guid: 0e307f2afbf2fdb40b72eb1b602d7c00,
@@ -17614,6 +17626,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012479676}
   m_CullTransparentMesh: 1
+--- !u!95 &1012479680
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012479676}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 801a39637d90a99458ec5209ac27e51b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!225 &1012479681
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012479676}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1013036437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35957,9 +36003,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1925730115910110570, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
+      propertyPath: actionText
+      value: 
+      objectReference: {fileID: 1012479678}
+    - target: {fileID: 1925730115910110570, guid: 6622cfc0f64f50d498b077c53acdd458,
+        type: 3}
       propertyPath: totalAmmoText
       value: 
       objectReference: {fileID: 15600861968223798}
+    - target: {fileID: 1925730115910110570, guid: 6622cfc0f64f50d498b077c53acdd458,
+        type: 3}
+      propertyPath: actionTextFade
+      value: 
+      objectReference: {fileID: 1012479680}
     - target: {fileID: 2932529062523927733, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
       propertyPath: m_Name
@@ -47302,9 +47358,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1925730115910110570, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
+      propertyPath: actionText
+      value: 
+      objectReference: {fileID: 1012479678}
+    - target: {fileID: 1925730115910110570, guid: 6622cfc0f64f50d498b077c53acdd458,
+        type: 3}
       propertyPath: totalAmmoText
       value: 
       objectReference: {fileID: 15600861968223798}
+    - target: {fileID: 1925730115910110570, guid: 6622cfc0f64f50d498b077c53acdd458,
+        type: 3}
+      propertyPath: actionTextFade
+      value: 
+      objectReference: {fileID: 1012479680}
     - target: {fileID: 2932529062523927733, guid: 6622cfc0f64f50d498b077c53acdd458,
         type: 3}
       propertyPath: m_Name
