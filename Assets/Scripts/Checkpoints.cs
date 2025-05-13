@@ -8,7 +8,8 @@ public class Checkpoints : MonoBehaviour
 {
     public GameObject player;
     public GameObject pistolSymbol;
-    public Animator transition;
+    public Animator screenTransition;
+    public Animator textTransition;
     public GameObject commentBar;
     public TextMeshProUGUI commentText;
 
@@ -24,45 +25,53 @@ public class Checkpoints : MonoBehaviour
         {
             if(pistolSymbol.activeSelf == true)
             {
-                CheckpointOne();
+                StartCoroutine(CheckpointOne());
             }
             else
             {
-                commentBar.SetActive(true);
-                commentText.text = "You Must Collect The Pistol Left For You First!";
-
-                print("Before");
-                StartCoroutine(Checkpoint(5));
-                print("After");
-                
-                commentText.text = "";
-                commentBar.SetActive(true);
+                StartCoroutine(TextFade());
             }
         }
     }
 
-    void CheckpointOne()
+    IEnumerator TextFade()
     {
-        StartCoroutine(Checkpoint(0.4f));
-        transition.SetBool("Fade In", true);
+        commentText.text = "You Must Collect The Pistol That Has Been Left For You First!";
 
-        StartCoroutine(Checkpoint(1.25f));
-        transition.SetBool("Fade In", false);
+        textTransition.SetBool("Fade In", true);
 
-        transition.SetBool("Fade Out", true);
+        print("After Set Text");
+
+        yield return new WaitForSeconds(5);
+
+        print("After 5 Second Delay");
+
+        textTransition.SetBool("Fade In", false);
+
+        textTransition.SetBool("Fade Out", true);
+
+        yield return new WaitForSeconds(1);
+
+        textTransition.SetBool("Fade Out", false);
+    }
+
+    IEnumerator CheckpointOne()
+    {
+        yield return new WaitForSeconds(0.4f);
+        screenTransition.SetBool("Fade In", true);
+
+        yield return new WaitForSeconds(1.25f);
+        screenTransition.SetBool("Fade In", false);
+
+        screenTransition.SetBool("Fade Out", true);
 
         player.transform.position = new Vector3(-17.5f, 1, 12.1f);
 
-        StartCoroutine(Checkpoint(1));
-        transition.SetBool("Fade Out", false);
+        yield return new WaitForSeconds(1);
+        screenTransition.SetBool("Fade Out", false);
 
         checkpointCounter++;
-
-    }
-
-    IEnumerator Checkpoint(float delayTime)
-    {
-        yield return new WaitForSeconds(delayTime);
+        
     }
 
 }
