@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using TMPro;
 using UnityEngine;
+using System.Collections;
 using UnityEngine.WSA;
 
 public class AmmoCollectScript : MonoBehaviour
@@ -8,9 +9,11 @@ public class AmmoCollectScript : MonoBehaviour
     PlayerGun playerGunScript;
 
     public TextMeshProUGUI totalAmmoText;
+    public TextMeshProUGUI actionText;
     public Animator openBox;
 
     int totalAmmo = 0;
+    int addedAmmo;
     int randAmmo;
     bool activated = false;
 
@@ -24,9 +27,20 @@ public class AmmoCollectScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && activated == false)
         {
-            openBox.SetBool("Open", true);
-            activated = true;
-            playerGunScript.AddAmmo();
+            StartCoroutine(Action());
         }
+    }
+
+    IEnumerator Action()
+    {
+        activated = true;
+
+        openBox.SetBool("Open", true);
+        playerGunScript.AddAmmo();
+
+        addedAmmo = playerGunScript.randAmmo;
+        actionText.text = "+ " + addedAmmo + " Ammo!";
+
+        yield return new WaitForSeconds(5);
     }
 }

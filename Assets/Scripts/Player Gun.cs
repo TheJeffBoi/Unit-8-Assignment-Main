@@ -11,7 +11,8 @@ public class PlayerGun : MonoBehaviour
     int totalAmmo = 0;
     int currentAmmo = 0;
     int fillAmmo = 0;
-    int randAmmo;
+    
+    public int randAmmo = 0;
 
     private void Start()
     {
@@ -22,6 +23,7 @@ public class PlayerGun : MonoBehaviour
     {
         randAmmo = Random.Range(2, 8);
         totalAmmo += randAmmo;
+        print("Real" + randAmmo);
         totalAmmoText.text = totalAmmo.ToString();
     }
 
