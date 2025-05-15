@@ -92,7 +92,7 @@ public class PickupScript : MonoBehaviour
     {
         if (player.GetComponent<PlayerMovement>().pickUpPressed == true)
         {
-            if (playerInArea == false && active == false)
+            if (playerInArea == false && active == true)
             {
                 player.GetComponent<PlayerMovement>().pickUpPressed = false;
             }
