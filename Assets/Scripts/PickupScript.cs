@@ -1,14 +1,20 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
+using System;
+using Unity.VisualScripting;
 
 public class PickupScript : MonoBehaviour
 {
 
     GameObject player;
+    public Animator actionTextFade;
+    public TextMeshProUGUI actionText;
     public TMP_Text promptText;
     public GameObject pistolSymbol;
 
     bool playerInArea = false;
+    bool active = false;
 
     void Start()
     {
@@ -50,17 +56,37 @@ public class PickupScript : MonoBehaviour
     {
         if (player.GetComponent<PlayerMovement>().pickUpPressed == true)
         {
-            if (playerInArea == false)
+            if (playerInArea == false && active == false)
             {
                 player.GetComponent<PlayerMovement>().pickUpPressed = false;
             }
             else
             {
-                Destroy(gameObject);
-                promptText.text = "";
-                pistolSymbol.SetActive(true);
-                player.GetComponent<PlayerMovement>().pickUpPressed = false;
+                StartCoroutine(Action());
             }
         }
+    }
+
+
+    IEnumerator Action()
+    {
+        actionTextFade.SetBool("Fade In", true);
+
+        actionText.text = "Picked Up Pistol!";
+        promptText.text = "";
+
+        active = true;
+        pistolSymbol.SetActive(true);
+
+        player.GetComponent<PlayerMovement>().pickUpPressed = false;
+
+        yield return new WaitForSeconds(2f);
+
+        actionTextFade.SetBool("Fade In", false);
+        actionTextFade.SetBool("Fade Out", true);
+
+        yield return new WaitForSeconds(1f);
+
+        actionTextFade.SetBool("Fade Out", false);
     }
 }
