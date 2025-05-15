@@ -6,8 +6,18 @@ using Unity.VisualScripting;
 
 public class PickupScript : MonoBehaviour
 {
-
     GameObject player;
+    public GameObject gunSpawn;
+
+    public GameObject pistol1;
+    public GameObject pistol2;
+    public GameObject pistol3;
+
+    public GameObject defaultHands;
+    public GameObject pistolHand1;
+    public GameObject pistolHand2;
+    public GameObject pistolHand3;
+
     public Animator actionTextFade;
     public TextMeshProUGUI actionText;
     public TMP_Text promptText;
@@ -16,9 +26,14 @@ public class PickupScript : MonoBehaviour
     bool playerInArea = false;
     bool active = false;
 
+    int randPistol = 0;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+
+        RandomPistol();
+        PlacePistol();
     }
 
     void Update()
@@ -27,9 +42,30 @@ public class PickupScript : MonoBehaviour
         TextLookAt();
     }
 
+    void RandomPistol()
+    {
+        randPistol = UnityEngine.Random.Range(1, 3);
+    }
+
+    void PlacePistol()
+    {
+        if (randPistol == 1)
+        {
+            pistol1.transform.position = gunSpawn.transform.position;
+        }
+        else if (randPistol == 2)
+        {
+            pistol2.transform.position = gunSpawn.transform.position;
+        }
+        else if (randPistol == 3)
+        {
+            pistol3.transform.position = gunSpawn.transform.position;
+        }
+    }
+
     void OnTriggerEnter(Collider other)
     {
-        if( other.gameObject.tag == "Player")
+        if( other.gameObject.tag == "Player" && active == false)
         {
             Vector3 selfPosition = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 0.5f, gameObject.transform.position.z);
             promptText.transform.position = selfPosition;
@@ -63,6 +99,7 @@ public class PickupScript : MonoBehaviour
             else
             {
                 StartCoroutine(Action());
+                GunHand();
             }
         }
     }
@@ -78,6 +115,8 @@ public class PickupScript : MonoBehaviour
         active = true;
         pistolSymbol.SetActive(true);
 
+        DestroyGuns();
+
         player.GetComponent<PlayerMovement>().pickUpPressed = false;
 
         yield return new WaitForSeconds(2f);
@@ -88,5 +127,31 @@ public class PickupScript : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         actionTextFade.SetBool("Fade Out", false);
+    }
+
+    void GunHand()
+    {
+        if (randPistol == 1)
+        {
+            defaultHands.SetActive(false);
+            pistolHand1.SetActive(true);
+        }
+        else if (randPistol == 2)
+        {
+            defaultHands.SetActive(false);
+            pistolHand2.SetActive(true);
+        }
+        else if (randPistol == 3)
+        {
+            defaultHands.SetActive(false);
+            pistolHand3.SetActive(true);
+        }
+    }
+
+    void DestroyGuns()
+    {
+        Destroy(pistol1);
+        Destroy(pistol2);
+        Destroy(pistol3);
     }
 }
