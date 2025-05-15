@@ -19,11 +19,13 @@ public class Checkpoints : MonoBehaviour
 
     int checkpointCounter;
 
+    bool active = false;
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            if(pistolSymbol.activeSelf == true)
+            if(pistolSymbol.activeSelf == true && active == false)
             {
                 StartCoroutine(CheckpointOne());
             }
@@ -36,23 +38,22 @@ public class Checkpoints : MonoBehaviour
 
     IEnumerator TextFade()
     {
+        active = true;
+
         commentText.text = "You Must Collect The Pistol That Has Been Left For You First!";
 
         textTransition.SetBool("Fade In", true);
 
-        print("After Set Text");
-
-        yield return new WaitForSeconds(5);
-
-        print("After 5 Second Delay");
+        yield return new WaitForSeconds(3);
 
         textTransition.SetBool("Fade In", false);
-
         textTransition.SetBool("Fade Out", true);
 
         yield return new WaitForSeconds(1);
 
         textTransition.SetBool("Fade Out", false);
+
+        active = false;
     }
 
     IEnumerator CheckpointOne()
