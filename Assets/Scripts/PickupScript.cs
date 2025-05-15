@@ -40,6 +40,7 @@ public class PickupScript : MonoBehaviour
     {
         PickUp();
         TextLookAt();
+        print(playerInArea);
     }
 
     void RandomPistol()
@@ -92,14 +93,14 @@ public class PickupScript : MonoBehaviour
     {
         if (player.GetComponent<PlayerMovement>().pickUpPressed == true)
         {
-            if (playerInArea == false && active == true)
-            {
-                player.GetComponent<PlayerMovement>().pickUpPressed = false;
-            }
-            else
+            if (playerInArea == true && active == false)
             {
                 StartCoroutine(Action());
                 GunHand();
+            }
+            else
+            {
+                player.GetComponent<PlayerMovement>().pickUpPressed = false;
             }
         }
     }
