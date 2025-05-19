@@ -27,7 +27,7 @@ public class Checkpoints : MonoBehaviour
     private void Start()
     {
         checkpointTeleport = new Vector3(gameObject.transform.position.x + 2.5f , gameObject.transform.position.y, gameObject.transform.position.z);
-        print(checkpointTeleport);
+        //print(checkpointTeleport);
     }
 
     void OnTriggerEnter(Collider other)

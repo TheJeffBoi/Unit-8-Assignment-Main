@@ -39,13 +39,13 @@ public class PlayerGun : MonoBehaviour
         
         if (totalAmmo - fillAmmo <= 0)
         {
-            print("OutOfAmmo");
+            //print("OutOfAmmo");
         }
         else
         {
             if (fillAmmo !> 0)
             {
-                print("Ammo Full!");
+                //print("Ammo Full!");
             }
             else
             {
@@ -76,6 +76,6 @@ public class PlayerGun : MonoBehaviour
             currentAmmo = 6;
         }
             currentAmmo = totalAmmo - 6;
-        print (currentAmmo);
+        //print (currentAmmo);
     }
 }
