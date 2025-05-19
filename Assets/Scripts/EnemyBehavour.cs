@@ -44,8 +44,6 @@ public class EnemyBehavour : MonoBehaviour
     {
         Vector3 targetPostition = new Vector3(player.position.x, transform.position.y, player.position.z);
         transform.LookAt(targetPostition);
-
-
     }
 
     void StateCheck()

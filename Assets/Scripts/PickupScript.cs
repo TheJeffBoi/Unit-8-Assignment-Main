@@ -40,7 +40,7 @@ public class PickupScript : MonoBehaviour
     {
         PickUp();
         TextLookAt();
-        print(playerInArea);
+        //print(playerInArea);
     }
 
     void RandomPistol()
