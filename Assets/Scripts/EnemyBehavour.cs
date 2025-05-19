@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Animations;
 using UnityEngine.InputSystem.iOS;
+using static UnityEngine.GraphicsBuffer;
 
 public class EnemyBehavour : MonoBehaviour
 {
@@ -14,6 +16,10 @@ public class EnemyBehavour : MonoBehaviour
     float distance;
 
 
+    // Angular speed in radians per sec.
+    public float speed = 1.0f;
+
+
     bool playerNear = false;
 
     void Start()
@@ -24,12 +30,22 @@ public class EnemyBehavour : MonoBehaviour
 
     void Update()
     {
-        //Distance();
+        LookAt();
+
         StateCheck();
+
         if (playerNear)
         {
             Chase();
         }
+    }
+
+    void LookAt()
+    {
+        Vector3 targetPostition = new Vector3(player.position.x, transform.position.y, player.position.z);
+        transform.LookAt(targetPostition);
+
+
     }
 
     void StateCheck()
@@ -49,12 +65,14 @@ public class EnemyBehavour : MonoBehaviour
         {
             enemyAnim.SetBool("Player Near", true);
             playerNear = true;
+            pistol.SetActive(true);
             Chase();
         }
         else
         {
             enemyAnim.SetBool("Player Near", false);
             playerNear = false;
+            pistol.SetActive(false);
         }
 
 
@@ -70,56 +88,4 @@ public class EnemyBehavour : MonoBehaviour
     {
         meshAgent.destination = transform.position;
     }
-
-    void Distance()
-    {
-        distance = Vector3.Distance(meshAgent.transform.position, player.position);
-
-        if (distance < attackDistance && playerNear == true)
-        {
-            print("stop");
-            meshAgent.isStopped = true;
-            enemyAnim.SetBool("Shoot", true);            
-        }
-        else
-        {
-            print("unstop");
-            meshAgent.isStopped = false;
-            enemyAnim.SetBool("Shoot", false);
-            meshAgent.destination = player.position;
-            //print(meshAgent.destination);
-        }
-    }
-
-    /*void OnAnimatorMove()
-    {
-        if (enemyAnim.GetBool("Shoot") == false)
-        {
-
-            meshAgent.speed = (enemyAnim.deltaPosition / Time.deltaTime).magnitude;
-        }
-    } 
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            enemyAnim.SetBool("Player Near", true);
-            playerNear = true;
-            pistol.SetActive(true);
-
-        }
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            enemyAnim.SetBool("Player Near", false);
-            playerNear = false;
-            pistol.SetActive(false);
-        }
-    }
-
-    */
 }
