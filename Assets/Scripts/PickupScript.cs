@@ -7,6 +7,9 @@ using Unity.VisualScripting;
 public class PickupScript : MonoBehaviour
 {
     GameObject player;
+
+    PlayerControls controls;
+
     public GameObject gunSpawn;
 
     public GameObject pistol1;
@@ -24,9 +27,16 @@ public class PickupScript : MonoBehaviour
     public GameObject pistolSymbol;
 
     bool playerInArea = false;
-    bool active = false;
+    public bool active = false;
 
     int randPistol = 0;
+
+private void Awake()
+    {
+        controls = new PlayerControls();
+
+        controls.Movement.PickUp.performed += ctx => PickUp();
+    }
 
     void Start()
     {
@@ -40,8 +50,18 @@ public class PickupScript : MonoBehaviour
     {
         PickUp();
         TextLookAt();
-        //print(playerInArea);
     }
+
+        void OnEnable()
+    {
+        controls.Movement.Enable();
+    }
+
+    void OnDisable()
+    {
+        controls.Movement.Disable();
+    }
+    
 
     void RandomPistol()
     {
@@ -70,7 +90,7 @@ public class PickupScript : MonoBehaviour
         {
             Vector3 selfPosition = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 0.5f, gameObject.transform.position.z);
             promptText.transform.position = selfPosition;
-            promptText.text = "Pick Up Gun";
+            promptText.text = "Pick Up Gun [Y]";
             playerInArea = true;
         }
     }
@@ -108,6 +128,7 @@ public class PickupScript : MonoBehaviour
 
     IEnumerator Action()
     {
+        
         actionTextFade.SetBool("Fade In", true);
 
         actionText.text = "Picked Up Pistol!";

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 5635619129542290464}
   m_Layer: 0
   m_Name: TrainSeats
-  m_TagString: Untagged
+  m_TagString: Ignore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1041,7 +1041,7 @@ GameObject:
   - component: {fileID: 303819050376928056}
   m_Layer: 0
   m_Name: Train_Floor
-  m_TagString: Untagged
+  m_TagString: Ignore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647

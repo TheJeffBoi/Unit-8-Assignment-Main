@@ -1,9 +1,14 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.InputSystem;
 using System.Collections;
 
 public class Projectile : MonoBehaviour
 {
+    PlayerControls controls;
+
+    PickupScript pickupScript;
+
     public Camera mainCam;
     public GameObject bullet;
     public GameObject muzzleFlash;
@@ -27,13 +32,27 @@ public class Projectile : MonoBehaviour
     bool shooting;
     bool readyToShoot;
     bool reloading;
+    bool hasGun = false;
 
     public bool allowInvoke = true;
 
     void Awake()
     {
+
+        controls = new PlayerControls();
+
+        controls.Movement.Shoot.performed += ctx => ShootCheck();
+        controls.Movement.Reload.performed += ctx => ReloadCheck();
+
         bulletsLeft = magazineSize;
         readyToShoot = true;
+
+    }
+
+    void Start()
+    {
+        pickupScript = GameObject.FindGameObjectWithTag("Gun").GetComponent<PickupScript>();
+
     }
 
     void Update()
@@ -42,6 +61,16 @@ public class Projectile : MonoBehaviour
         MyInput();
     }
 
+        void OnEnable()
+    {
+        controls.Movement.Enable();
+    }
+
+    void OnDisable()
+    {
+        controls.Movement.Disable();
+    }
+    
     void SetAmmoDisplay()
     {
         if(currentAmmoCount != null)
@@ -57,26 +86,15 @@ public class Projectile : MonoBehaviour
 
     void MyInput()
     {
-        if (allowButtonHold)
-        {
-            shooting = Input.GetKey(KeyCode.S);
-        }
-        else
-        {
-            shooting = Input.GetKeyDown(KeyCode.S);
-        }
-
-        if (Input.GetKeyDown(KeyCode.R) && bulletsLeft < magazineSize && !reloading)
+        if (readyToShoot && !reloading && bulletsLeft <= 0)
         {
             Reload();
         }
+    }
 
-        if (readyToShoot && shooting && !reloading && bulletsLeft <= 0)
-        {
-            Reload();
-        }
-
-        if (readyToShoot && shooting && !reloading && bulletsLeft > 0)
+    void ShootCheck()
+    {
+        if (readyToShoot && !reloading && bulletsLeft > 0 && pickupScript.active == true)
         {
             bulletsShot = 0;
 
@@ -132,6 +150,14 @@ public class Projectile : MonoBehaviour
         if (bulletsShot < bulletsPerTap && bulletsLeft > 0)
         {
             Invoke("Shoot", timeBeweenShots);
+        }
+    }
+
+    void ReloadCheck()
+    {
+        if (bulletsLeft < magazineSize && !reloading && pickupScript.active == true)
+        {
+            Reload();
         }
     }
 
