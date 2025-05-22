@@ -13,6 +13,7 @@ public class PlayerGun : MonoBehaviour
     int fillAmmo = 0;
     
     public int randAmmo = 0;
+    public int kills = 0;
 
     private void Start()
     {
@@ -77,5 +78,10 @@ public class PlayerGun : MonoBehaviour
         }
             currentAmmo = totalAmmo - 6;
         //print (currentAmmo);
+    }
+
+    public void AddKill()
+    {
+        kills++;
     }
 }

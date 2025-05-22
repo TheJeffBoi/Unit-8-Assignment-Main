@@ -4,19 +4,37 @@ using UnityEngine.AI;
 
 public class EnemyHealth : MonoBehaviour
 {
+    public PlayerGun playerGunScript;
+
     public GameObject enemy;
     public Animator enemyAnim;
 
     public int enemysKilled;
     int enemyHealth = 100;
 
+    private void Start()
+    {
+        playerGunScript = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerGun>();
+
+        enemy.GetComponent<CapsuleCollider>();
+        enemy.GetComponent<EnemyBehavour>();
+        enemy.GetComponent<NavMeshAgent>();
+    }
+
     void Update()
     {
-        print(enemyHealth);
         CheckHealth();
     }
 
-    public void DamageEnemy()
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player Bullet")
+        {
+            DamageEnemy();
+        }
+    }
+
+    void DamageEnemy()
     {
         enemyHealth -= 20;
     }
@@ -25,11 +43,8 @@ public class EnemyHealth : MonoBehaviour
     {
         if (enemyHealth < 0)
         {
-            print("Enemy Health Less Than 0");
+            enemyAnim.SetTrigger("Death");
 
-            enemyAnim.SetBool("Death", true);
-
-            //GetComponent<Rigidbody>().enabled = false;
             enemy.GetComponent<CapsuleCollider>().enabled = false;
             enemy.GetComponent<EnemyBehavour>().enabled = false;
             enemy.GetComponent<NavMeshAgent>().enabled = false;

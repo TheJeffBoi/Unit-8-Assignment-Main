@@ -13,7 +13,7 @@ public class Checkpoints : MonoBehaviour
     public Animator textTransition;
     public GameObject commentBar;
     public TextMeshProUGUI commentText;
-    public EnemyHealth enemyHealth;
+    public PlayerGun enemyKillScript;
 
     public float beforeTransition;
     public float transitionTime;
@@ -30,22 +30,27 @@ public class Checkpoints : MonoBehaviour
     private void Start()
     {
         checkpointTeleport = new Vector3(gameObject.transform.position.x + 2.5f , gameObject.transform.position.y, gameObject.transform.position.z);
-
-        enemyHealth = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyHealth>();
-        enemyKills = enemyHealth.enemysKilled;
+        enemyKillScript = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerGun>();
+        enemyKills = enemyKillScript.kills;
     }
 
-    void Update()
+    private void Update()
     {
-        AimKill();
+        print(checkpointCounter);
+        
+
+        print(targetKill);
     }
 
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
         {
+
             if(gameObject.name == "Trigger 1")
             {
+                AimKill();
+
                 if (pistolSymbol.activeSelf == true && active == false)
                 {
                     StartCoroutine(CheckpointOne());
@@ -57,23 +62,31 @@ public class Checkpoints : MonoBehaviour
             }
             else
             {
-                /*if (enemyKills = targetKill)
+                AimKill();
+
+                if (enemyKills == targetKill)
                 {
+                    print(enemyKills);
+                    print(targetKill);
                     StartCoroutine(CheckpointOther());
                 }
                 else
                 {
                     print("Must Kill All Enemys First");
-                }*/
+                }
             }
         }
     }
 
     void AimKill()
     {
-        if (checkpointCounter == 2)
+        if (checkpointCounter == 1)
         {
             targetKill += 1;
+        }
+        else if (checkpointCounter == 2)
+        {
+            targetKill += 2;
         }
         else if (checkpointCounter == 3)
         {
@@ -81,17 +94,13 @@ public class Checkpoints : MonoBehaviour
         }
         else if (checkpointCounter == 4)
         {
-            targetKill += 2;
+            targetKill += 3;
         }
         else if (checkpointCounter == 5)
         {
             targetKill += 3;
         }
         else if (checkpointCounter == 6)
-        {
-            targetKill += 3;
-        }
-        else if (checkpointCounter == 7)
         {
             targetKill += 3;
         }
@@ -133,7 +142,6 @@ public class Checkpoints : MonoBehaviour
         screenTransition.SetBool("Fade Out", false);
 
         checkpointCounter++;
-        
     }
 
     IEnumerator CheckpointOther()
@@ -154,6 +162,12 @@ public class Checkpoints : MonoBehaviour
 
         checkpointCounter++;
 
+        yield return new WaitForSeconds(3);
+    }
+
+    public void AddKill()
+    {
+        enemyKills++;
     }
 
 }
