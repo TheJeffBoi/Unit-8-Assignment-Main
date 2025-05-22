@@ -49,7 +49,7 @@ public class EnemyHealth : MonoBehaviour
             enemy.GetComponent<EnemyBehavour>().enabled = false;
             enemy.GetComponent<NavMeshAgent>().enabled = false;
 
-            enemysKilled++;
+            playerGunScript.AddKill();
         }
     }
 }

@@ -1,7 +1,9 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Animations;
 using UnityEngine.InputSystem.iOS;
+using System.Collections;
 using static UnityEngine.GraphicsBuffer;
 
 public class EnemyBehavour : MonoBehaviour
@@ -9,11 +11,16 @@ public class EnemyBehavour : MonoBehaviour
     public Animator enemyAnim;
     public Transform player;
     public GameObject pistol;
+    public GameObject bullet;
+    public Transform attackPoint;
     NavMeshAgent meshAgent;
 
     public float attackDistance;
     public float chaseDistance = 7.5f;
+    public float spread;
+    public float shootForce;
     float distance;
+    float waitTime = 2;
 
 
     // Angular speed in radians per sec.
@@ -51,7 +58,6 @@ public class EnemyBehavour : MonoBehaviour
         if (Vector3.Distance(transform.position, player.transform.position) <= attackDistance)
         {
             enemyAnim.SetBool("Shoot", true);
-            Shoot();
         }
         else
         {
@@ -82,8 +88,34 @@ public class EnemyBehavour : MonoBehaviour
         meshAgent.destination = player.transform.position;
     }
 
-    void Shoot()
+    public void DoShoot()
+    {
+        StartCoroutine(ShootCheck());
+
+    }
+
+    IEnumerator ShootCheck()
     {
         meshAgent.destination = transform.position;
+
+        float delay = Random.Range(0.5f, 2);
+
+        print(delay);
+
+        yield return new WaitForSeconds(delay);
+
+        print("After Delay");
+
+        if (enemyAnim.GetBool("Shoot") == true)
+        {
+            Shoot();
+        }
+    }
+
+    void Shoot()
+    {
+        GameObject bulletObj = Instantiate(bullet, attackPoint.transform.position, attackPoint.transform.rotation) as GameObject;
+        Rigidbody bulletRig = bulletObj.GetComponent<Rigidbody>();
+        bulletRig.AddForce(bulletRig.transform.forward * shootForce);
     }
 }

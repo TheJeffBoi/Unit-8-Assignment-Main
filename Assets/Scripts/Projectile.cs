@@ -52,7 +52,6 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         pickupScript = GameObject.FindGameObjectWithTag("Gun").GetComponent<PickupScript>();
-
     }
 
     void Update()

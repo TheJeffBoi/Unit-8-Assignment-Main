@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 810946254020502632}
   - component: {fileID: 6068972387241079281}
   - component: {fileID: 7726252974566547258}
-  - component: {fileID: 9172536275245447295}
   - component: {fileID: 6538281873986487583}
   m_Layer: 0
   m_Name: Player Pistol 1 Bullet
@@ -117,27 +116,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!65 &9172536275245447295
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025981993818055147}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.011574433, y: 0.013365004, z: 0.037622817}
-  m_Center: {x: 0, y: -9.313226e-10, z: -0.0026885904}
 --- !u!114 &6538281873986487583
 MonoBehaviour:
   m_ObjectHideFlags: 0
