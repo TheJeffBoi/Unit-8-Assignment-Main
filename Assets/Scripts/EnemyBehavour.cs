@@ -1,10 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Animations;
-using UnityEngine.InputSystem.iOS;
-using System.Collections;
-using static UnityEngine.GraphicsBuffer;
 
 public class EnemyBehavour : MonoBehaviour
 {

@@ -2,8 +2,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 using TMPro;
-using UnityEditorInternal;
-using UnityEditor.UI;
 
 public class Checkpoints : MonoBehaviour
 {

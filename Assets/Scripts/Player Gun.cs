@@ -1,6 +1,4 @@
 using TMPro;
-using Unity.VisualScripting;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class PlayerGun : MonoBehaviour
