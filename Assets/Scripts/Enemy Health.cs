@@ -1,8 +1,13 @@
 using System;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyHealth : MonoBehaviour
 {
+    public GameObject enemy;
+    public Animator enemyAnim;
+
+    public int enemysKilled;
     int enemyHealth = 100;
 
     void Update()
@@ -13,14 +18,23 @@ public class EnemyHealth : MonoBehaviour
 
     public void DamageEnemy()
     {
-        enemyHealth -= UnityEngine.Random.Range(20, 25);
+        enemyHealth -= 20;
     }
 
     void CheckHealth()
     {
         if (enemyHealth < 0)
         {
-            Destroy(gameObject);
+            print("Enemy Health Less Than 0");
+
+            enemyAnim.SetBool("Death", true);
+
+            //GetComponent<Rigidbody>().enabled = false;
+            enemy.GetComponent<CapsuleCollider>().enabled = false;
+            enemy.GetComponent<EnemyBehavour>().enabled = false;
+            enemy.GetComponent<NavMeshAgent>().enabled = false;
+
+            enemysKilled++;
         }
     }
 }

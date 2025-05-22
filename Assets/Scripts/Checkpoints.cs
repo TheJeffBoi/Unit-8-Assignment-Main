@@ -13,6 +13,7 @@ public class Checkpoints : MonoBehaviour
     public Animator textTransition;
     public GameObject commentBar;
     public TextMeshProUGUI commentText;
+    public EnemyHealth enemyHealth;
 
     public float beforeTransition;
     public float transitionTime;
@@ -21,13 +22,22 @@ public class Checkpoints : MonoBehaviour
     Vector3 checkpointTeleport;
 
     int checkpointCounter;
+    int enemyKills = 0;
+    int targetKill = 0;
 
     bool active = false;
 
     private void Start()
     {
         checkpointTeleport = new Vector3(gameObject.transform.position.x + 2.5f , gameObject.transform.position.y, gameObject.transform.position.z);
-        //print(checkpointTeleport);
+
+        enemyHealth = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyHealth>();
+        enemyKills = enemyHealth.enemysKilled;
+    }
+
+    void Update()
+    {
+        AimKill();
     }
 
     void OnTriggerEnter(Collider other)
@@ -47,8 +57,43 @@ public class Checkpoints : MonoBehaviour
             }
             else
             {
-                StartCoroutine(CheckpointOther());
+                /*if (enemyKills = targetKill)
+                {
+                    StartCoroutine(CheckpointOther());
+                }
+                else
+                {
+                    print("Must Kill All Enemys First");
+                }*/
             }
+        }
+    }
+
+    void AimKill()
+    {
+        if (checkpointCounter == 2)
+        {
+            targetKill += 1;
+        }
+        else if (checkpointCounter == 3)
+        {
+            targetKill += 2;
+        }
+        else if (checkpointCounter == 4)
+        {
+            targetKill += 2;
+        }
+        else if (checkpointCounter == 5)
+        {
+            targetKill += 3;
+        }
+        else if (checkpointCounter == 6)
+        {
+            targetKill += 3;
+        }
+        else if (checkpointCounter == 7)
+        {
+            targetKill += 3;
         }
     }
 
@@ -93,12 +138,9 @@ public class Checkpoints : MonoBehaviour
 
     IEnumerator CheckpointOther()
     {
-        print("1");
 
         yield return new WaitForSeconds(0.4f);
         screenTransition.SetBool("Fade In", true);
-
-        print("2");
 
         yield return new WaitForSeconds(1.25f);
         screenTransition.SetBool("Fade In", false);
