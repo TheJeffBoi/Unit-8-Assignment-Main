@@ -4,6 +4,7 @@ using System.Collections;
 
 public class EndScreen : MonoBehaviour
 {
+    public GameObject screenFade;
     public Animator transition;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -25,6 +26,7 @@ public class EndScreen : MonoBehaviour
 
     IEnumerator SceneChange()
     {
+        screenFade.SetActive(true);
         yield return new WaitForSeconds(1);
 
         transition.SetTrigger("Start");
