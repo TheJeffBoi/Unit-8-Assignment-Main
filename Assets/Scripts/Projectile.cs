@@ -77,10 +77,10 @@ public class Projectile : MonoBehaviour
             currentAmmoCount.SetText(bulletsLeft / bulletsPerTap + "");
         }
 
-        if (totalAmmoCount != null)
+        /*if (totalAmmoCount != null)
         {
             totalAmmoCount.SetText(magazineSize / bulletsPerTap + "");
-        }
+        }*/
     }
 
     void MyInput()
@@ -180,8 +180,9 @@ public class Projectile : MonoBehaviour
 
     IEnumerator MuzzleFlash()
     {
-        GameObject flash = Instantiate(muzzleFlash, attackPoint.position, Quaternion.identity);
+        print("muzzle flash");
+        muzzleFlash.SetActive(true);
         yield return new WaitForSeconds(0.1f);
-        Destroy(flash);
+        muzzleFlash.SetActive(false);
     }
 }

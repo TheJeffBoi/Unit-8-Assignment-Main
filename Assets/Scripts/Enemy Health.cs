@@ -8,9 +8,10 @@ public class EnemyHealth : MonoBehaviour
 
     public GameObject enemy;
     public Animator enemyAnim;
+    Rigidbody rb;
 
     public int enemysKilled;
-    int enemyHealth = 100;
+    public int enemyHealth = 100;
 
     private void Start()
     {
@@ -19,6 +20,8 @@ public class EnemyHealth : MonoBehaviour
         enemy.GetComponent<CapsuleCollider>();
         enemy.GetComponent<EnemyBehavour>();
         enemy.GetComponent<NavMeshAgent>();
+
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -48,6 +51,7 @@ public class EnemyHealth : MonoBehaviour
         {
             enemyAnim.SetTrigger("Death");
             
+            rb.constraints = RigidbodyConstraints.FreezeRotationY;
             enemy.GetComponent<NavMeshAgent>().enabled = false;
             enemy.GetComponent<CapsuleCollider>().enabled = false;
             enemy.GetComponent<EnemyBehavour>().enabled = false;
