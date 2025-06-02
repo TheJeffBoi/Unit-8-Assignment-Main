@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -27,8 +28,10 @@ public class EnemyHealth : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        print("Enemy has hit a " + other.gameObject.tag); 
         if (other.gameObject.tag == "Player Bullet")
         {
+            print("Damage Enemy 2");
             DamageEnemy();
         }
     }
@@ -36,6 +39,7 @@ public class EnemyHealth : MonoBehaviour
     void DamageEnemy()
     {
         enemyHealth -= 20;
+        print("Enemy Health" + enemyHealth);
     }
 
     void CheckHealth()
@@ -43,10 +47,10 @@ public class EnemyHealth : MonoBehaviour
         if (enemyHealth < 0)
         {
             enemyAnim.SetTrigger("Death");
-
+            
+            enemy.GetComponent<NavMeshAgent>().enabled = false;
             enemy.GetComponent<CapsuleCollider>().enabled = false;
             enemy.GetComponent<EnemyBehavour>().enabled = false;
-            enemy.GetComponent<NavMeshAgent>().enabled = false;
 
             playerGunScript.AddKill();
         }
