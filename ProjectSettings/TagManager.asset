@@ -22,6 +22,7 @@ TagManager:
   - Bullet
   - Health Manager
   - Player Bullet
+  - Enemy Bullet
   layers:
   - Default
   - TransparentFX

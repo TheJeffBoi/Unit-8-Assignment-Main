@@ -8,8 +8,10 @@ public class EnemyBehavour : MonoBehaviour
     public Transform player;
     public GameObject pistol;
     public GameObject bullet;
+    public GameObject flash;
     public Transform attackPoint;
     NavMeshAgent meshAgent;
+    public Rigidbody rb;
 
     public float attackDistance;
     public float chaseDistance = 7.5f;
@@ -29,6 +31,7 @@ public class EnemyBehavour : MonoBehaviour
     {
         meshAgent = GetComponent<NavMeshAgent>();
         enemyAnim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -80,7 +83,7 @@ public class EnemyBehavour : MonoBehaviour
 
     void Chase()
     {
-       
+
         meshAgent.destination = player.transform.position;
     }
 
@@ -96,11 +99,7 @@ public class EnemyBehavour : MonoBehaviour
 
         float delay = Random.Range(0.5f, 2);
 
-        print(delay);
-
         yield return new WaitForSeconds(delay);
-
-        print("After Delay");
 
         if (enemyAnim.GetBool("Shoot") == true)
         {
@@ -110,8 +109,22 @@ public class EnemyBehavour : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bulletObj = Instantiate(bullet, attackPoint.transform.position, attackPoint.transform.rotation) as GameObject;
-        Rigidbody bulletRig = bulletObj.GetComponent<Rigidbody>();
-        bulletRig.AddForce(bulletRig.transform.forward * shootForce);
+        Vector3 shootSpread = attackPoint.transform.forward;
+        shootSpread.x += Random.Range(-0.4f, 0.4f);
+        shootSpread.y += Random.Range(-0.4f, 0.4f);
+
+        rb = Instantiate(bullet, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+        rb.AddForce(shootSpread * 32f, ForceMode.Impulse);
+        rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+
+        StartCoroutine(MuzzleFlash());
+
+    }
+
+    IEnumerator MuzzleFlash()
+    {
+        flash.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        flash.SetActive(false);
     }
 }

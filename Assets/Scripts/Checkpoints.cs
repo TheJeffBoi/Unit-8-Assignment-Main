@@ -34,10 +34,10 @@ public class Checkpoints : MonoBehaviour
 
     private void Update()
     {
-        print(checkpointCounter);
+        //print(checkpointCounter);
         
 
-        print(targetKill);
+        //print(targetKill);
     }
 
     void OnTriggerEnter(Collider other)
@@ -64,8 +64,8 @@ public class Checkpoints : MonoBehaviour
 
                 if (enemyKills == targetKill)
                 {
-                    print(enemyKills);
-                    print(targetKill);
+                    //print(enemyKills);
+                    //print(targetKill);
                     StartCoroutine(CheckpointOther());
                 }
                 else

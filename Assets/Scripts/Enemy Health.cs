@@ -31,10 +31,8 @@ public class EnemyHealth : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        print("Enemy has hit a " + other.gameObject.tag); 
         if (other.gameObject.tag == "Player Bullet")
         {
-            print("Damage Enemy 2");
             DamageEnemy();
         }
     }
@@ -42,7 +40,7 @@ public class EnemyHealth : MonoBehaviour
     void DamageEnemy()
     {
         enemyHealth -= 20;
-        print("Enemy Health" + enemyHealth);
+        //print("Enemy Health" + enemyHealth);
     }
 
     void CheckHealth()
