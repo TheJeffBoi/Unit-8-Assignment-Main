@@ -13,6 +13,7 @@ public class Projectile : MonoBehaviour
     public Camera mainCam;
     public GameObject bullet;
     public GameObject muzzleFlash;
+    public GameObject flash;
     public TextMeshProUGUI currentAmmoCount;
     public TextMeshProUGUI totalAmmoCount;
     public Transform attackPoint;
@@ -190,9 +191,10 @@ public class Projectile : MonoBehaviour
 
     IEnumerator MuzzleFlash()
     {
-        print("muzzle flash");
         muzzleFlash.SetActive(true);
+        flash.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         muzzleFlash.SetActive(false);
+        flash.SetActive(false);
     }
 }

@@ -8,6 +8,7 @@ public class EnemyBehavour : MonoBehaviour
     public Transform player;
     public GameObject pistol;
     public GameObject bullet;
+    public GameObject muzzleFlash;
     public GameObject flash;
     public Transform attackPoint;
     NavMeshAgent meshAgent;
@@ -125,8 +126,10 @@ public class EnemyBehavour : MonoBehaviour
 
     IEnumerator MuzzleFlash()
     {
+        muzzleFlash.SetActive(true);
         flash.SetActive(true);
         yield return new WaitForSeconds(0.1f);
+        muzzleFlash.SetActive(false);
         flash.SetActive(false);
     }
 }
