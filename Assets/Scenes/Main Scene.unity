@@ -46773,7 +46773,6 @@ GameObject:
   - component: {fileID: 4885012701742938676}
   - component: {fileID: 67679051988752028}
   - component: {fileID: 725162316448262311}
-  - component: {fileID: 5779828168429807851}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -52706,22 +52705,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5779828168429807851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2990533516770929876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b5dbd069a3c1fb428e747add0f7ecad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  totalAmmoText: {fileID: 0}
-  currentAmmoText: {fileID: 0}
-  randAmmo: 0
-  kills: 0
 --- !u!1 &5821028389992677743
 GameObject:
   m_ObjectHideFlags: 0

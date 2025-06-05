@@ -4,6 +4,8 @@ using UnityEngine.AI;
 
 public class EnemyBehavour : MonoBehaviour
 {
+    EnemyHealth enemyHealthScript;
+
     public Animator enemyAnim;
     public Transform player;
     public GameObject pistol;
@@ -65,7 +67,7 @@ public class EnemyBehavour : MonoBehaviour
 
         }
 
-        if (Vector3.Distance(transform.position, player.transform.position) <= chaseDistance)
+        if (Vector3.Distance(transform.position, player.transform.position) <= chaseDistance || enemyHealthScript.enemyHealth < enemyHealthScript.enemyTotalHealth)
         {
             enemyAnim.SetBool("Player Near", true);
             playerNear = true;

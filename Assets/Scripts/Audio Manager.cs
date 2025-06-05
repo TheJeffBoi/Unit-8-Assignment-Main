@@ -43,6 +43,7 @@ public class AudioManager : MonoBehaviour
     public static void PlaySound(SoundType sound, float volume = 1)
     {
         Instance.audioSource.PlayOneShot(Instance.soundList[(int)sound], volume);
+        //Instance.audioSource.Play();
     }
 
     public static void StopSound(SoundType sound)

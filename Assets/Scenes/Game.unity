@@ -9907,7 +9907,7 @@ MonoBehaviour:
   currentAmmoCount: {fileID: 698612185}
   totalAmmoCount: {fileID: 1555317386}
   attackPoint: {fileID: 713166105}
-  shootForce: 20
+  shootForce: 50
   upwardsForce: 0
   timeBetweenShooting: 0.1
   spread: 0.1

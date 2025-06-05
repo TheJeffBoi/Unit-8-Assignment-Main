@@ -4,6 +4,7 @@ using UnityEngine.AI;
 
 public class EnemyHealth : MonoBehaviour
 {
+
     public PlayerGun playerGunScript;
 
     public GameObject enemy;
@@ -11,7 +12,8 @@ public class EnemyHealth : MonoBehaviour
     Rigidbody rb;
 
     public int enemysKilled;
-    public int enemyHealth = 100;
+    public int enemyTotalHealth;
+    public int enemyHealth;
 
     private void Start()
     {
@@ -22,6 +24,8 @@ public class EnemyHealth : MonoBehaviour
         enemy.GetComponent<NavMeshAgent>();
 
         rb = GetComponent<Rigidbody>();
+
+        enemyTotalHealth = enemyHealth;
     }
 
     void Update()
