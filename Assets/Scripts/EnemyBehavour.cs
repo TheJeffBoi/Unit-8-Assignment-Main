@@ -117,6 +117,8 @@ public class EnemyBehavour : MonoBehaviour
         rb.AddForce(shootSpread * 32f, ForceMode.Impulse);
         rb.AddForce(transform.up * 8f, ForceMode.Impulse);
 
+        AudioManager.PlaySound(SoundType.EnemyGunshot, 0.5f);
+
         StartCoroutine(MuzzleFlash());
 
     }

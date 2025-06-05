@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
 using System.Collections;
+using System.Runtime.CompilerServices;
 
 public class Projectile : MonoBehaviour
 {
@@ -131,8 +132,10 @@ public class Projectile : MonoBehaviour
 
         currentBullet.GetComponent<Rigidbody>().AddForce(directionWithSpread.normalized * shootForce, ForceMode.Impulse);
         currentBullet.GetComponent<Rigidbody>().AddForce(mainCam.transform.up * upwardsForce, ForceMode.Impulse);
+        
+        AudioManager.PlaySound(SoundType.PlayerGunshot, 0.5f);
 
-        if(muzzleFlash != null)
+        if (muzzleFlash != null)
         {
             StartCoroutine(MuzzleFlash());
         }
@@ -170,6 +173,13 @@ public class Projectile : MonoBehaviour
     {
         reloading = true;
         Invoke("ReloadFinished", reloadTime);
+        StartCoroutine(ReloadSound());
+    }
+
+    IEnumerator ReloadSound()
+    {
+        yield return new WaitForSeconds(1f);
+        AudioManager.PlaySound(SoundType.Reload, 1.5f);
     }
 
     void ReloadFinished()

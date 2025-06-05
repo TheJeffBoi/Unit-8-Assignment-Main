@@ -1573,6 +1573,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
+      propertyPath: enemyHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
       propertyPath: playerGunScript
       value: 
       objectReference: {fileID: 427621470}
@@ -7779,6 +7784,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
+      propertyPath: enemyHealth
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
       propertyPath: playerGunScript
       value: 
       objectReference: {fileID: 427621470}
@@ -9975,6 +9985,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.787
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
+      propertyPath: enemyHealth
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
@@ -13364,6 +13379,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.787
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
+      propertyPath: enemyHealth
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
@@ -18113,6 +18133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
+      propertyPath: enemyHealth
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
       propertyPath: playerGunScript
       value: 
       objectReference: {fileID: 427621470}
@@ -18322,6 +18347,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.787
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
+      propertyPath: enemyHealth
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
@@ -20129,6 +20159,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1979098137891989125, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979098137891989125, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979098137891989125, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 107.209
       objectReference: {fileID: 0}
@@ -20176,6 +20216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.787
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
+      propertyPath: enemyHealth
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
@@ -23031,6 +23076,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.787
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
+      propertyPath: enemyHealth
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
@@ -28096,6 +28146,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
+      propertyPath: enemyHealth
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
       propertyPath: playerGunScript
       value: 
       objectReference: {fileID: 427621470}
@@ -30025,6 +30080,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.787
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
+      propertyPath: enemyHealth
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
@@ -36257,6 +36317,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}
+      propertyPath: enemyHealth
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
       propertyPath: playerGunScript
       value: 
       objectReference: {fileID: 427621470}
@@ -38140,6 +38205,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.787
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
+        type: 3}
+      propertyPath: enemyHealth
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 7930423324628916965, guid: 6c2853190eb4a024fa4d865ec7c1a516,
         type: 3}

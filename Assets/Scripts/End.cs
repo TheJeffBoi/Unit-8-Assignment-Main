@@ -28,6 +28,8 @@ public class End : MonoBehaviour
 
     IEnumerator SceneChange()
     {
+        AudioManager.StopSound(SoundType.StationAmbiance);
+
         yield return new WaitForSeconds(0.5f);
 
         transition.SetTrigger("Start");

@@ -41,6 +41,7 @@ private void Awake()
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        AudioManager.PlaySound(SoundType.TrainAmbiance, 0.5f);
 
         RandomPistol();
         PlacePistol();
@@ -128,7 +129,8 @@ private void Awake()
 
     IEnumerator Action()
     {
-        
+        AudioManager.PlaySound(SoundType.HolsterPistol, 1);
+
         actionTextFade.SetBool("Fade In", true);
 
         actionText.text = "Picked Up Pistol!";

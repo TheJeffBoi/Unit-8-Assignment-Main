@@ -19,6 +19,7 @@ public class LoadLevel : MonoBehaviour
     void Start()
     {
         playerGunScript = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerGun>();
+        AudioManager.PlaySound(SoundType.StationAmbiance, 0.5f);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -43,6 +44,10 @@ public class LoadLevel : MonoBehaviour
 
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
+
+        AudioManager.PlaySound(SoundType.DoorOpen, 1.25f);
+        AudioManager.StopSound(SoundType.StationAmbiance);
+
         SceneManager.LoadScene("Game");
         playerGunScript.UpdateAmmoCount();
 

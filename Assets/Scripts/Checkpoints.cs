@@ -132,6 +132,8 @@ public class Checkpoints : MonoBehaviour
         yield return new WaitForSeconds(1.25f);
         screenTransition.SetBool("Fade In", false);
 
+        AudioManager.PlaySound(SoundType.DoorOpen, 1.25f);
+
         screenTransition.SetBool("Fade Out", true);
 
         player.transform.position = checkpointTeleport;
@@ -144,12 +146,13 @@ public class Checkpoints : MonoBehaviour
 
     IEnumerator CheckpointOther()
     {
-
         yield return new WaitForSeconds(0.4f);
         screenTransition.SetBool("Fade In", true);
 
         yield return new WaitForSeconds(1.25f);
         screenTransition.SetBool("Fade In", false);
+
+        AudioManager.PlaySound(SoundType.DoorOpen, 1.25f);
 
         screenTransition.SetBool("Fade Out", true);
 

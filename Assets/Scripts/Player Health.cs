@@ -31,6 +31,8 @@ public class PlayerHealth : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy Bullet")
         {
+            AudioManager.PlaySound(SoundType.Damage, 0.5f);
+
             damage = Random.Range(minDamage, maxDamage);
             playerHealth = playerHealth - damage;
 

@@ -82,6 +82,7 @@ public class PlayerMovement : MonoBehaviour
     {
         controls.Movement.Disable();
     }
+    
     void Walk()
     {
         rb.linearVelocity = (move.y * speed * transform.forward) + (move.x * speed * transform.right);
